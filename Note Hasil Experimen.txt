@@ -70,3 +70,182 @@ val_loss
  0.6554312109947205,
  0.8316794037818909,
  0.8236529231071472]
+ 
+ 
+ 
+ 
+ Eksperimen 2
+ 
+ Categorical Accuracy
+ 
+ [0.5095815062522888,
+ 0.6215442419052124,
+ 0.6672907471656799,
+ 0.7065756320953369,
+ 0.7110131978988647,
+ 0.742621123790741,
+ 0.7879955768585205,
+ 0.8029735684394836,
+ 0.8227973580360413,
+ 0.8308370113372803,
+ 0.841519832611084,
+ 0.8620043992996216,
+ 0.8768722414970398,
+ 0.8882158398628235,
+ 0.9029735922813416,
+ 0.9144273400306702,
+ 0.9207048416137695,
+ 0.9272026419639587,
+ 0.9314978122711182,
+ 0.9356828331947327,
+ 0.9406387805938721,
+ 0.94382643699646,
+ 0.9392070770263672,
+ 0.9425047039985657,
+ 0.9427312612533569,
+ 0.9406387805938721,
+ 0.942064106464386,
+ 0.9433920979499817,
+ 0.9449338912963867,
+ 0.9448238015174866]
+ 
+ Epoch 1/30
+908/908 [==============================] - ETA: 0s - loss: 1.7147 - categorical_accuracy: 0.5096 - top_2_accuracy: 0.7139 - top_3_accuracy: 0.8422
+Epoch 00001: val_top_3_accuracy improved from -inf to 0.94670, saving model to model.h5
+908/908 [==============================] - 349s 384ms/step - loss: 1.7147 - categorical_accuracy: 0.5096 - top_2_accuracy: 0.7139 - top_3_accuracy: 0.8422 - val_loss: 0.9472 - val_categorical_accuracy: 0.8060 - val_top_2_accuracy: 0.8614 - val_top_3_accuracy: 0.9467 - lr: 0.0100
+Epoch 2/30
+908/908 [==============================] - ETA: 0s - loss: 1.2383 - categorical_accuracy: 0.6215 - top_2_accuracy: 0.8184 - top_3_accuracy: 0.9158
+Epoch 00002: val_top_3_accuracy did not improve from 0.94670
+908/908 [==============================] - 381s 420ms/step - loss: 1.2383 - categorical_accuracy: 0.6215 - top_2_accuracy: 0.8184 - top_3_accuracy: 0.9158 - val_loss: 3.1083 - val_categorical_accuracy: 0.1258 - val_top_2_accuracy: 0.4243 - val_top_3_accuracy: 0.8198 - lr: 0.0100
+Epoch 3/30
+908/908 [==============================] - ETA: 0s - loss: 1.1041 - categorical_accuracy: 0.6673 - top_2_accuracy: 0.8481 - top_3_accuracy: 0.9367
+Epoch 00003: val_top_3_accuracy improved from 0.94670 to 0.95203, saving model to model.h5
+908/908 [==============================] - 470s 517ms/step - loss: 1.1041 - categorical_accuracy: 0.6673 - top_2_accuracy: 0.8481 - top_3_accuracy: 0.9367 - val_loss: 0.8419 - val_categorical_accuracy: 0.8134 - val_top_2_accuracy: 0.9009 - val_top_3_accuracy: 0.9520 - lr: 0.0100
+Epoch 4/30
+908/908 [==============================] - ETA: 0s - loss: 0.9891 - categorical_accuracy: 0.7066 - top_2_accuracy: 0.8753 - top_3_accuracy: 0.9499
+Epoch 00004: val_top_3_accuracy improved from 0.95203 to 0.97548, saving model to model.h5
+908/908 [==============================] - 502s 553ms/step - loss: 0.9891 - categorical_accuracy: 0.7066 - top_2_accuracy: 0.8753 - top_3_accuracy: 0.9499 - val_loss: 0.5427 - val_categorical_accuracy: 0.7964 - val_top_2_accuracy: 0.9222 - val_top_3_accuracy: 0.9755 - lr: 0.0100
+Epoch 5/30
+908/908 [==============================] - ETA: 0s - loss: 0.9352 - categorical_accuracy: 0.7110 - top_2_accuracy: 0.8826 - top_3_accuracy: 0.9616
+Epoch 00005: val_top_3_accuracy did not improve from 0.97548
+908/908 [==============================] - 557s 614ms/step - loss: 0.9352 - categorical_accuracy: 0.7110 - top_2_accuracy: 0.8826 - top_3_accuracy: 0.9616 - val_loss: 2.5686 - val_categorical_accuracy: 0.1748 - val_top_2_accuracy: 0.7217 - val_top_3_accuracy: 0.9510 - lr: 0.0100
+Epoch 6/30
+908/908 [==============================] - ETA: 0s - loss: 0.8558 - categorical_accuracy: 0.7426 - top_2_accuracy: 0.9003 - top_3_accuracy: 0.9661
+Epoch 00006: val_top_3_accuracy did not improve from 0.97548
+
+Epoch 00006: ReduceLROnPlateau reducing learning rate to 0.004999999888241291.
+908/908 [==============================] - 617s 679ms/step - loss: 0.8558 - categorical_accuracy: 0.7426 - top_2_accuracy: 0.9003 - top_3_accuracy: 0.9661 - val_loss: 0.5216 - val_categorical_accuracy: 0.8316 - val_top_2_accuracy: 0.9222 - val_top_3_accuracy: 0.9638 - lr: 0.0100
+Epoch 7/30
+908/908 [==============================] - ETA: 0s - loss: 0.7015 - categorical_accuracy: 0.7880 - top_2_accuracy: 0.9287 - top_3_accuracy: 0.9779
+Epoch 00007: val_top_3_accuracy improved from 0.97548 to 0.97761, saving model to model.h5
+908/908 [==============================] - 558s 614ms/step - loss: 0.7015 - categorical_accuracy: 0.7880 - top_2_accuracy: 0.9287 - top_3_accuracy: 0.9779 - val_loss: 0.3487 - val_categorical_accuracy: 0.8849 - val_top_2_accuracy: 0.9520 - val_top_3_accuracy: 0.9776 - lr: 0.0050
+Epoch 8/30
+908/908 [==============================] - ETA: 0s - loss: 0.6472 - categorical_accuracy: 0.8030 - top_2_accuracy: 0.9406 - top_3_accuracy: 0.9841
+Epoch 00008: val_top_3_accuracy did not improve from 0.97761
+908/908 [==============================] - 581s 640ms/step - loss: 0.6472 - categorical_accuracy: 0.8030 - top_2_accuracy: 0.9406 - top_3_accuracy: 0.9841 - val_loss: 0.3682 - val_categorical_accuracy: 0.8678 - val_top_2_accuracy: 0.9510 - val_top_3_accuracy: 0.9765 - lr: 0.0050
+Epoch 9/30
+908/908 [==============================] - ETA: 0s - loss: 0.5621 - categorical_accuracy: 0.8228 - top_2_accuracy: 0.9485 - top_3_accuracy: 0.9895
+Epoch 00009: val_top_3_accuracy improved from 0.97761 to 0.97974, saving model to model.h5
+908/908 [==============================] - 496s 547ms/step - loss: 0.5621 - categorical_accuracy: 0.8228 - top_2_accuracy: 0.9485 - top_3_accuracy: 0.9895 - val_loss: 0.4354 - val_categorical_accuracy: 0.8529 - val_top_2_accuracy: 0.9616 - val_top_3_accuracy: 0.9797 - lr: 0.0050
+Epoch 10/30
+908/908 [==============================] - ETA: 0s - loss: 0.5670 - categorical_accuracy: 0.8308 - top_2_accuracy: 0.9499 - top_3_accuracy: 0.9885
+Epoch 00010: val_top_3_accuracy did not improve from 0.97974
+908/908 [==============================] - 462s 509ms/step - loss: 0.5670 - categorical_accuracy: 0.8308 - top_2_accuracy: 0.9499 - top_3_accuracy: 0.9885 - val_loss: 0.4831 - val_categorical_accuracy: 0.8443 - val_top_2_accuracy: 0.9350 - val_top_3_accuracy: 0.9723 - lr: 0.0050
+Epoch 11/30
+908/908 [==============================] - ETA: 0s - loss: 0.5296 - categorical_accuracy: 0.8415 - top_2_accuracy: 0.9548 - top_3_accuracy: 0.9890
+Epoch 00011: val_top_3_accuracy did not improve from 0.97974
+
+Epoch 00011: ReduceLROnPlateau reducing learning rate to 0.0024999999441206455.
+908/908 [==============================] - 413s 455ms/step - loss: 0.5296 - categorical_accuracy: 0.8415 - top_2_accuracy: 0.9548 - top_3_accuracy: 0.9890 - val_loss: 0.4293 - val_categorical_accuracy: 0.8635 - val_top_2_accuracy: 0.9424 - val_top_3_accuracy: 0.9765 - lr: 0.0050
+Epoch 12/30
+908/908 [==============================] - ETA: 0s - loss: 0.4526 - categorical_accuracy: 0.8620 - top_2_accuracy: 0.9688 - top_3_accuracy: 0.9937
+Epoch 00012: val_top_3_accuracy improved from 0.97974 to 0.98721, saving model to model.h5
+908/908 [==============================] - 402s 442ms/step - loss: 0.4526 - categorical_accuracy: 0.8620 - top_2_accuracy: 0.9688 - top_3_accuracy: 0.9937 - val_loss: 0.3350 - val_categorical_accuracy: 0.8955 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9872 - lr: 0.0025
+Epoch 13/30
+908/908 [==============================] - ETA: 0s - loss: 0.4092 - categorical_accuracy: 0.8769 - top_2_accuracy: 0.9725 - top_3_accuracy: 0.9957
+Epoch 00013: val_top_3_accuracy did not improve from 0.98721
+908/908 [==============================] - 402s 443ms/step - loss: 0.4092 - categorical_accuracy: 0.8769 - top_2_accuracy: 0.9725 - top_3_accuracy: 0.9957 - val_loss: 0.3368 - val_categorical_accuracy: 0.8977 - val_top_2_accuracy: 0.9670 - val_top_3_accuracy: 0.9872 - lr: 0.0025
+Epoch 14/30
+908/908 [==============================] - ETA: 0s - loss: 0.3765 - categorical_accuracy: 0.8882 - top_2_accuracy: 0.9765 - top_3_accuracy: 0.9963
+Epoch 00014: val_top_3_accuracy did not improve from 0.98721
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.0012499999720603228.
+908/908 [==============================] - 396s 436ms/step - loss: 0.3765 - categorical_accuracy: 0.8882 - top_2_accuracy: 0.9765 - top_3_accuracy: 0.9963 - val_loss: 0.3912 - val_categorical_accuracy: 0.8838 - val_top_2_accuracy: 0.9627 - val_top_3_accuracy: 0.9829 - lr: 0.0025
+Epoch 15/30
+908/908 [==============================] - ETA: 0s - loss: 0.3145 - categorical_accuracy: 0.9030 - top_2_accuracy: 0.9819 - top_3_accuracy: 0.9979
+Epoch 00015: val_top_3_accuracy did not improve from 0.98721
+908/908 [==============================] - 398s 439ms/step - loss: 0.3145 - categorical_accuracy: 0.9030 - top_2_accuracy: 0.9819 - top_3_accuracy: 0.9979 - val_loss: 0.3799 - val_categorical_accuracy: 0.8774 - val_top_2_accuracy: 0.9691 - val_top_3_accuracy: 0.9861 - lr: 0.0012
+Epoch 16/30
+908/908 [==============================] - ETA: 0s - loss: 0.2862 - categorical_accuracy: 0.9144 - top_2_accuracy: 0.9847 - top_3_accuracy: 0.9977
+Epoch 00016: val_top_3_accuracy did not improve from 0.98721
+
+Epoch 00016: ReduceLROnPlateau reducing learning rate to 0.0006249999860301614.
+908/908 [==============================] - 400s 441ms/step - loss: 0.2862 - categorical_accuracy: 0.9144 - top_2_accuracy: 0.9847 - top_3_accuracy: 0.9977 - val_loss: 0.3545 - val_categorical_accuracy: 0.8806 - val_top_2_accuracy: 0.9680 - val_top_3_accuracy: 0.9840 - lr: 0.0012
+Epoch 17/30
+908/908 [==============================] - ETA: 0s - loss: 0.2594 - categorical_accuracy: 0.9207 - top_2_accuracy: 0.9852 - top_3_accuracy: 0.9971
+Epoch 00017: val_top_3_accuracy improved from 0.98721 to 0.98934, saving model to model.h5
+908/908 [==============================] - 395s 435ms/step - loss: 0.2594 - categorical_accuracy: 0.9207 - top_2_accuracy: 0.9852 - top_3_accuracy: 0.9971 - val_loss: 0.3325 - val_categorical_accuracy: 0.8891 - val_top_2_accuracy: 0.9627 - val_top_3_accuracy: 0.9893 - lr: 6.2500e-04
+Epoch 18/30
+908/908 [==============================] - ETA: 0s - loss: 0.2370 - categorical_accuracy: 0.9272 - top_2_accuracy: 0.9881 - top_3_accuracy: 0.9980
+Epoch 00018: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 393s 433ms/step - loss: 0.2370 - categorical_accuracy: 0.9272 - top_2_accuracy: 0.9881 - top_3_accuracy: 0.9980 - val_loss: 0.3593 - val_categorical_accuracy: 0.8870 - val_top_2_accuracy: 0.9659 - val_top_3_accuracy: 0.9883 - lr: 6.2500e-04
+Epoch 19/30
+908/908 [==============================] - ETA: 0s - loss: 0.2246 - categorical_accuracy: 0.9315 - top_2_accuracy: 0.9905 - top_3_accuracy: 0.9989
+Epoch 00019: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00019: ReduceLROnPlateau reducing learning rate to 0.0003124999930150807.
+908/908 [==============================] - 398s 438ms/step - loss: 0.2246 - categorical_accuracy: 0.9315 - top_2_accuracy: 0.9905 - top_3_accuracy: 0.9989 - val_loss: 0.3710 - val_categorical_accuracy: 0.8913 - val_top_2_accuracy: 0.9606 - val_top_3_accuracy: 0.9851 - lr: 6.2500e-04
+Epoch 20/30
+908/908 [==============================] - ETA: 0s - loss: 0.2102 - categorical_accuracy: 0.9357 - top_2_accuracy: 0.9901 - top_3_accuracy: 0.9990
+Epoch 00020: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 385s 424ms/step - loss: 0.2102 - categorical_accuracy: 0.9357 - top_2_accuracy: 0.9901 - top_3_accuracy: 0.9990 - val_loss: 0.3475 - val_categorical_accuracy: 0.8987 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9872 - lr: 3.1250e-04
+Epoch 21/30
+908/908 [==============================] - ETA: 0s - loss: 0.1987 - categorical_accuracy: 0.9406 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9990
+Epoch 00021: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00021: ReduceLROnPlateau reducing learning rate to 0.00015624999650754035.
+908/908 [==============================] - 373s 410ms/step - loss: 0.1987 - categorical_accuracy: 0.9406 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9990 - val_loss: 0.3509 - val_categorical_accuracy: 0.8945 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9872 - lr: 3.1250e-04
+Epoch 22/30
+908/908 [==============================] - ETA: 0s - loss: 0.1929 - categorical_accuracy: 0.9438 - top_2_accuracy: 0.9892 - top_3_accuracy: 0.9989
+Epoch 00022: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 371s 409ms/step - loss: 0.1929 - categorical_accuracy: 0.9438 - top_2_accuracy: 0.9892 - top_3_accuracy: 0.9989 - val_loss: 0.3495 - val_categorical_accuracy: 0.8923 - val_top_2_accuracy: 0.9627 - val_top_3_accuracy: 0.9872 - lr: 1.5625e-04
+Epoch 23/30
+908/908 [==============================] - ETA: 0s - loss: 0.2016 - categorical_accuracy: 0.9392 - top_2_accuracy: 0.9890 - top_3_accuracy: 0.9982
+Epoch 00023: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00023: ReduceLROnPlateau reducing learning rate to 7.812499825377017e-05.
+908/908 [==============================] - 367s 405ms/step - loss: 0.2016 - categorical_accuracy: 0.9392 - top_2_accuracy: 0.9890 - top_3_accuracy: 0.9982 - val_loss: 0.3520 - val_categorical_accuracy: 0.8881 - val_top_2_accuracy: 0.9648 - val_top_3_accuracy: 0.9851 - lr: 1.5625e-04
+Epoch 24/30
+908/908 [==============================] - ETA: 0s - loss: 0.1906 - categorical_accuracy: 0.9425 - top_2_accuracy: 0.9920 - top_3_accuracy: 0.9987
+Epoch 00024: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 366s 403ms/step - loss: 0.1906 - categorical_accuracy: 0.9425 - top_2_accuracy: 0.9920 - top_3_accuracy: 0.9987 - val_loss: 0.3563 - val_categorical_accuracy: 0.8881 - val_top_2_accuracy: 0.9648 - val_top_3_accuracy: 0.9851 - lr: 7.8125e-05
+Epoch 25/30
+908/908 [==============================] - ETA: 0s - loss: 0.1856 - categorical_accuracy: 0.9427 - top_2_accuracy: 0.9904 - top_3_accuracy: 0.9990
+Epoch 00025: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00025: ReduceLROnPlateau reducing learning rate to 3.9062499126885086e-05.
+908/908 [==============================] - 366s 403ms/step - loss: 0.1856 - categorical_accuracy: 0.9427 - top_2_accuracy: 0.9904 - top_3_accuracy: 0.9990 - val_loss: 0.3581 - val_categorical_accuracy: 0.8870 - val_top_2_accuracy: 0.9659 - val_top_3_accuracy: 0.9840 - lr: 7.8125e-05
+Epoch 26/30
+908/908 [==============================] - ETA: 0s - loss: 0.1920 - categorical_accuracy: 0.9406 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9993
+Epoch 00026: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 368s 406ms/step - loss: 0.1920 - categorical_accuracy: 0.9406 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9993 - val_loss: 0.3558 - val_categorical_accuracy: 0.8891 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9851 - lr: 3.9062e-05
+Epoch 27/30
+908/908 [==============================] - ETA: 0s - loss: 0.1933 - categorical_accuracy: 0.9421 - top_2_accuracy: 0.9912 - top_3_accuracy: 0.9992
+Epoch 00027: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00027: ReduceLROnPlateau reducing learning rate to 1.9531249563442543e-05.
+908/908 [==============================] - 366s 403ms/step - loss: 0.1933 - categorical_accuracy: 0.9421 - top_2_accuracy: 0.9912 - top_3_accuracy: 0.9992 - val_loss: 0.3549 - val_categorical_accuracy: 0.8902 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9872 - lr: 3.9062e-05
+Epoch 28/30
+908/908 [==============================] - ETA: 0s - loss: 0.1916 - categorical_accuracy: 0.9434 - top_2_accuracy: 0.9916 - top_3_accuracy: 0.9990
+Epoch 00028: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 365s 402ms/step - loss: 0.1916 - categorical_accuracy: 0.9434 - top_2_accuracy: 0.9916 - top_3_accuracy: 0.9990 - val_loss: 0.3525 - val_categorical_accuracy: 0.8881 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9872 - lr: 1.9531e-05
+Epoch 29/30
+908/908 [==============================] - ETA: 0s - loss: 0.1836 - categorical_accuracy: 0.9449 - top_2_accuracy: 0.9912 - top_3_accuracy: 0.9989
+Epoch 00029: val_top_3_accuracy did not improve from 0.98934
+
+Epoch 00029: ReduceLROnPlateau reducing learning rate to 1e-05.
+908/908 [==============================] - 365s 402ms/step - loss: 0.1836 - categorical_accuracy: 0.9449 - top_2_accuracy: 0.9912 - top_3_accuracy: 0.9989 - val_loss: 0.3537 - val_categorical_accuracy: 0.8881 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9840 - lr: 1.9531e-05
+Epoch 30/30
+908/908 [==============================] - ETA: 0s - loss: 0.1902 - categorical_accuracy: 0.9448 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9989
+Epoch 00030: val_top_3_accuracy did not improve from 0.98934
+908/908 [==============================] - 363s 400ms/step - loss: 0.1902 - categorical_accuracy: 0.9448 - top_2_accuracy: 0.9917 - top_3_accuracy: 0.9989 - val_loss: 0.3516 - val_categorical_accuracy: 0.8923 - val_top_2_accuracy: 0.9638 - val_top_3_accuracy: 0.9861 - lr: 1.0000e-05
