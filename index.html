@@ -1,0 +1,70 @@
+<!doctype html>
+
+<head>
+  <title>DPS 4B: Automated Diagnosis of Pigmented Skin Lesions With MOBILENET V.2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+  .pred-container {
+    margin-bottom: 20px;
+  }
+
+  .pred-container > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding-right: 20px;
+  }
+
+  #file-container {
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+  <div class="tfjs-example-container">
+    <section class='title-area'>
+      <h1>DPS 4B: Automated Diagnosis of Pigmented Skin Lesions With MOBILENET V.2</h1>
+    </section>
+
+    <section>
+      <p class='section-head'>Description</p>
+      <p>
+        This demo uses the Keras with mobilenet v2 transfer learning, to learn and predict pigmented skin lesions.
+
+        Dataset source from <a
+          href="https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000">Kaggle</a>.
+      </p>
+    </section>
+
+    <section>
+      <p class='section-head'>Status</p>
+      <div id="status"></div>
+    </section>
+
+    <section>
+      <p class='section-head'>Model Output</p>
+
+      <div id="file-container" style="display: none">
+        Upload an image: <input type="file" id="files" name="files[]" multiple />
+      </div>
+
+      <div id="predictions"></div>
+
+      <img style="display: none" id="img" src="test.jpg" width=224 height=224 crossorigin="anonymous" />
+    </section>
+
+    <script src="lib.js"></script>
+    <script src="index.js"></script>
+  </div>
+</body>
