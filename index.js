@@ -17,15 +17,9 @@
 
 import * as tf from '@tensorflow/tfjs';
 import * as tfjsWasm from '@tensorflow/tfjs-backend-wasm';
-// import {version} from '@tensorflow/tfjs-backend-wasm/dist/version';
 import {IMAGE_SIZE,loadModel, predict} from './lib';
 
-// tfjsWasm.setWasmPath(
-//     `https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@${
-//         version}/dist/tfjs-backend-wasm.wasm`);
-
 // UI
-
 function showResults(imgElement, label) {
   const canvas = document.createElement('canvas');
   canvas.height=IMAGE_SIZE;
