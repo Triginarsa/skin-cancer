@@ -83,6 +83,7 @@ for Detail you can learn in https://keras.io/guides/transfer_learning/
 ![image](https://user-images.githubusercontent.com/54672242/85282362-d0009200-b4b5-11ea-9106-8d640692d623.png)
 
 ## CONVERT MODEL TO TENSORFLOWJS
+You Can Learn in https://www.tensorflow.org/js/guide/conversion
 ![image](https://user-images.githubusercontent.com/54672242/85282540-1d7cff00-b4b6-11ea-9807-1ee23e659f12.png)
 
 ## CREATE WEB
@@ -92,7 +93,7 @@ for Detail you can learn in https://keras.io/guides/transfer_learning/
 You can learn in https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/
 
 ## DEMO
-1. Download Image from datasets
+1. Download Image from datasets or You Can Download Only Test Images https://drive.google.com/file/d/1XgWgICzkn1hU7hZplHuGWSN5kexMekpy/view
 2. Open Our Web https://dps-4b.netlify.app/
 ![image](https://user-images.githubusercontent.com/54672242/85283548-c24c0c00-b4b7-11ea-8bf1-5c127c363b14.png)
 
